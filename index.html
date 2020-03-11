@@ -25,7 +25,7 @@
 								</button>
 							
 							<div class="menu collapse navbar-collapse" id="navbarNav">
-								<ul class="navbar-nav ml-auto">
+								<ul id="menu" class="navbar-nav ml-auto">
 									<li class="nav-item">
 									<a class="nav-link" href="#home">Home </a>
 									</li>
@@ -80,7 +80,7 @@
 				</div>
 			</div>
 		</header>
-		<section id="about" class="py-5 justify-contect-center align-self-center">
+		<section id="about" class="py-5 justify-content-center align-self-center">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-8 justify-content-center align-self-center">
@@ -118,12 +118,16 @@
 			<div class="container text-center">
 				<h2>Lorem ipsum dolor</h1>
 				<p>consectetur adipisicing elit, sed do eiusmod tempor</p>
-				<img src="img/MacBook.png" class="img-fluid">
+				<div class="row justify-content-center align-self-center">
+					<a class="justify-content-center align-self-center" href="#" title="arrow-le"><img src="img/arrow_left.png" class="arrow-le img-fluid"></a>
+					<img src="img/MacBook.png" class="table img-fluid py-5">
+					<a class="justify-content-center align-self-center" href="#" title="arrow-le"><img src="img/arrow_right.png" class="arrow-ri img-fluid"></a>
+				</div>	
 			</div>
 		</section>
 		<section id="price">
 			<div class="container justify-content-center align-self-center py-5">
-				<div class="text-center py-5">
+				<div class="text-center pb-5">
 					<h1>What People Say</h1>
 				</div>
 				<div class="row">
@@ -242,7 +246,7 @@
 				</div>
 			</div>
 		</section>
-		<footer class="bg-dark text-center py-3 text-white nav-pills-custom">
+		<footer class="bg-dark py-3 text-center text-white align-self-center">
 			<p>Copyright 2013-2014 MileniumGroup, All right reserved.</p>
 		</footer>
 		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
