@@ -1,0 +1,64 @@
+
+.navbar .nav-item .nav-link{
+	color: white;
+}
+header{
+	position: relative;
+	background: url(../img/bg.png);
+	background-size: cover;
+	max-width: 100%;
+}
+#home img{
+	max-height: 100%;
+}
+#home .butnhome .or{
+	border-radius: 50%;
+	background-color: white;
+}
+#home .butnhome .pur{
+	background-color: rgb(26, 188, 156);
+	width: 170px;
+}
+#home .butnhome .ler{
+	width: 170px;
+}
+#service img{
+	max-height: 100px;
+}
+#about img{
+	max-width: 100%;
+}
+#feature{
+	background: url(../img/base.png)
+}
+#price img{
+	max-width: 100px;
+}
+#contact {
+	background: url(../img/base2.png);
+}
+ul.address {
+  margin-top: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.contact-info ul li a{
+	color:#fff;
+}
+.form-group button{
+	width: 150px;
+}
+.form-group .rese{
+	background-color: rgb(26, 188, 156);
+}
+.form-group input{
+	background: rgb(93, 109, 126);
+	box-sizing: border-box;
+	border: none;
+}
+textarea.form-control{
+	background: rgb(93, 109, 126);
+	box-sizing: border-box;
+	border: none;
+}
