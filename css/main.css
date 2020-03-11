@@ -1,11 +1,26 @@
+body{
+	font-family: monserrat;
+}
 .navbar .nav-item .nav-link{
 	color: white;
+}
+.navbar .nav-item .nav-link:hover{
+	border-bottom:1px;
+	border-color: rgb(26, 188, 156);
+}
+.menu {
+	border: 29px;
+    border-bottom-color: white;
 }
 header{
 	position: relative;
 	background: url(../img/bg.png);
 	background-size: cover;
 	max-width: 100%;
+}
+.menu ul li a:hover{
+	border-bottom:1px;
+	border-color: rgb(26, 188, 156);
 }
 #home img{
 	max-height: 100%;
