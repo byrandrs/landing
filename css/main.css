@@ -36,6 +36,13 @@ ul#menu li a:hover:after{
     opacity:1;
     transform: translateY(15px);
 }
+#show{
+	height: 15px;
+	width: 100%;
+}
+#menunav{
+	background-color: rgba(0,0,0,0.4);
+}
 #home img{
 	max-height: 100%;
 }
